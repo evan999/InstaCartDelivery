@@ -10,6 +10,8 @@ namespace InstaCartDelivery
     {
         static void Main(string[] args)
         {
+            Delivery delivery = new Delivery([200, 20, 15], [[300, 40, 5], [600, 40, 10]);
+            Console.WriteLine(delivery);
         }
     }
 }
